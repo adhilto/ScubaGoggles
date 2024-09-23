@@ -11,7 +11,7 @@ The information in this document is being provided "as is" for INFORMATIONAL PUR
 This baseline is based on Google documentation available at the [Gmail Google Workspace Admin Help Center](https://support.google.com/a/topic/9202?hl=en&ref_topic=9197) and addresses the following:.
 
 - [Mail Delegation](#1-mail-delegation)
-- [Domain Keys Identified Mail](#2-domainkeys-identified-mail)
+- [Domain Keys Identified Mail](#2-domainkeys-identified-mailBROKEN)
 - [Sender Policy Framework](#3-sender-policy-framework)
 - [Domain Based Message Authentication, Reporting, and Conformance](#4-domain-based-message-authentication-reporting-and-conformance)
 - [Attachment Protections](#5-attachment-protections)
@@ -59,7 +59,7 @@ Mail Delegation SHOULD be disabled.
 - _Note:_ Exceptions should be limited to individuals authorized by existing Agency policy, such as SES or Politically Appointed staff. Other considerations include ensuring that delegated accounts require Phishing-Resistant Multi-Factor Authentication (MFA), limiting delegated account permissions (ex. allowing view/reply but not delete), monitoring delegated accounts regularly, and disabling them if no longer required.
 
 - MITRE ATT&CK TTP Mapping
-  - [T098: Account Manipulation](https://attack.mitre.org/techniques/T1098/)
+  - [T098: Account Manipulation](https://attack.mitre.org/techniques/T1098/BROKEN)
     - [T098:002: Account Manipulation: Additional Email Delegate Permissions](https://attack.mitre.org/techniques/T1098/002/)
 
 ### Resources
